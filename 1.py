@@ -32,7 +32,10 @@ print(word) #1+6+8=15
 #slicing of arrays
 arrayx= np.array([[1,2,3,4,5],
                   [6,7,8,9,10],
-                  [11,12,13,14,15]])
+                  [11,12,13,14,15],
+                  [16,17,18,19,20]])
 # print(arrayx[1:2])
 #coloumn selection
 print(arrayx[:,1:])
+#row and col selection
+print(arrayx[2:,0:2])#(row,col)
