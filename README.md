@@ -1,0 +1,2 @@
+# Numpy-demo
+numpy prac
