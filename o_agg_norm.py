@@ -30,3 +30,4 @@ normalized = (
 ) / data.std(axis=0)
 
 print(normalized.mean(axis=0))
+print(normalized.std(axis=0))
